@@ -102,3 +102,35 @@ h1 {
     background: black;
     color: white;
 }
+
+.bottom-content {
+    border-bottom: 1px solid black;
+    margin-bottom: 33px;
+    padding-bottom: 39px;
+}
+
+.bottom-content-facts {
+    display: flex;
+}
+
+.bottom-content-text {
+    width: 47%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-top: 22px;
+}
+
+.services-info-img {
+    width: 53%;
+    padding-bottom: 70px;
+}
+
+ul li {
+    padding: 10px 0 10px 0;
+}
